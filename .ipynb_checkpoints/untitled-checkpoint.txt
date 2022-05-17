@@ -1,5 +1,0 @@
-stock_tweet_sentiment_df = pd.DataFrame(tweet_sentiments)
-#Date Clean up
-stock_tweet_sentiment_df["date"] = pd.to_datetime(stock_tweet_sentiment_df["date"].dt.date)
-#Check Date Type
-stock_tweet_sentiment_df.dtypes
