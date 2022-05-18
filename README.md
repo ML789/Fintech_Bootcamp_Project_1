@@ -10,7 +10,7 @@ The project was analysed in May 2022 by
 
 The project uses various Notebooks to perform the analysis with high level process flow depicted as below.
 
-![Flow Chart](Images/Flow%20Chart.png)
+![Flow Chart](Images/Flow%20Chart.jpeg)
 
 
 ## Resources
