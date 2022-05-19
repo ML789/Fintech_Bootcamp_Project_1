@@ -45,8 +45,21 @@ This [notebook](StockSentimentAnalysis.ipynb) reads the [StockPriceData.csv](Dat
 
 This notebook then combines the data of both these CSV's, does the clean up of the data by removing null values where it cannot concat data between CSVs.  
 
-Various visual plots are created using `hvPlot` Python library.
+Various visual plots are created using `hvPlot` Python library. 
 
+Some of key plots that were plotted:
+
+### Stock Price v/s Sentiment Score
+![Stock Price v/s Sentiment Score](Images/Plot%20to%20show%20Stock%20Price%20Sentiment%20Score.PNG)
+
+### Stock Price v/s Sentiment Correlation
+![Stock Price v/s Sentiment Correlation](Images/Stock%20Price%20V%20Sentiment%20Correlation.PNG)
+
+### Market Representation and Correlation Side by Side
+![Market Representation and Correlation Side by Side](Images/Market%20Representation%20and%20Correlation%20side%20by%20side.PNG)
+
+### Sentiment Analysis Tool
+![Sentiment Analysis Tool](Images/Sentiment%20Analysis%20Tool.PNG)
 
 ## Notebook 5 - Dashboard
 
@@ -68,4 +81,3 @@ The following resources were used
 -  [Twitter API](https://developer.twitter.com/en/docs/twitter-api) for reading tweets and searching tweets based on a given stock
 -  [Nasdaq symbols](https://www.nasdaq.com/market-activity/stocks/screener). This provided us the initial list of all possible Nasdaq symbol for our analysis.
 - [Vader Sentiment Analysis](https://github.com/cjhutto/vaderSentiment) library  was used for sentiment analysis.  A special mention to this [blog](https://www.analyticsvidhya.com/blog/2021/06/vader-for-sentiment-analysis/) which helped us with the usage of this library.
- 
