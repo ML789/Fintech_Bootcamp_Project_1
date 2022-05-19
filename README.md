@@ -67,12 +67,22 @@ This [notebook](DashBoard.ipynb) reads the [StockPriceData.csv](Data/StockPriceD
 
 Similar to Notebook 4, this notebook also creates various visual plots are created using `hvPlot` Python library and presents it as a dashboard.
 
+The below shows one of the plots from the Dashboard which shows the side by side view of stock price movements and Twitter Sentiment movement.
+![Dashboard](Images/Dashboard%20output.PNG)
+
+*Note:  When scrolling through the dashboards, the scrolling in one plot also scrolls the graphs in other plots!*
+
+## Outcome
+Through the tools created, we found that the mean correlation across the stock data and Twitter sentiment of  30 shares in total was -0.85% meaning no significant correlation between the two variables was found.
+
 ## Limitations We Faced
 
 Due to limitations on sentiment data as well as time constraint, we believe the information presented was not conclusive enough to actually answer the hypothesis and determine whether there was a direct correlation or not to an upper percentile.
 
 We believe if given more time, and or a more upgraded [Twitter API](https://developer.twitter.com/en/docs/twitter-api) with lesser restrictions, we believe the findings of our tool would of been a lot more conclusive in regards to the hypothesis first brought up by Dr Kahneman and tested by our group.
 
+## Presentation Slides
+The presentation slides can be found [here](Slides/The%20Senti-Mentals_Stocks%20vs%20Sentiment%20Analysis.pdf). 
 
 ## Resources
 
