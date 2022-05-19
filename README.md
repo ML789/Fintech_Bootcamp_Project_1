@@ -70,7 +70,7 @@ Similar to Notebook 4, this notebook also creates various visual plots are creat
 The below shows one of the plots from the Dashboard which shows the side by side view of stock price movements and Twitter Sentiment movement.
 ![Dashboard](Images/Dashboard%20output.PNG)
 
-*Note:  When scrolling through the dashboards, the scrolling in one plot also scrolls the graphs in other plots!*
+*Note:  When scrolling through the dashboards, the scrolling in one plot also scrolls the graphs in other plots!  This is possibly due to graphs are linked on same axis*
 
 ## Outcome
 Through the tools created, we found that the mean correlation across the stock data and Twitter sentiment of  30 shares in total was -0.85% meaning no significant correlation between the two variables was found.
